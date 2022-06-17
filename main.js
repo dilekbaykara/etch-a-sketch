@@ -61,6 +61,6 @@ document.querySelector("body").addEventListener("click", (e) => {
  
  //GitHub icon//
  function flCapital(str) {
-    if (!str) return;
-    return str.match("^[a-z]") ? str.charAt(0).toUpperCase() + str.substring(1) : str;
-  };
+  if (!str) return;
+  return str.match("^[a-z]") ? str.charAt(0).toUpperCase() + str.substring(1) : str;
+};

@@ -128,7 +128,7 @@ body {
 /* FOOTER */
 
 footer {
-    align-items: center;
+    position:fixed;
     font-family: proxima-nova, sans-serif;
     font-weight: 400;
     color: #0A0908;
